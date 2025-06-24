@@ -37,4 +37,13 @@
   .price-rading-hospital {
     @apply font-[700] text-[18px] text-[#FF5050];
   }
+  .h2-reviews {
+    @apply font-[700] text-[20px] text-[#292D32];
+  }
+  .p-reviews {
+    @apply font-[700] text-[14px] text-[#555B6C];
+  }
+  .h3-reviews {
+    @apply font-[800] text-[40px] text-[#292D32];
+  }
 }
