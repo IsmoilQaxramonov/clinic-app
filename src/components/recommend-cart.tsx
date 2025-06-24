@@ -1,10 +1,24 @@
-import Girl from "../assets/img/recommend-girl.png"
+import Girl from "../assets/img/recommend-girl.png";
 
 export const RecommendCart = () => {
   return (
     <>
       <div className="bg-[#F2F2F2] rounded-4xl pt-4">
-        <img src={Girl} alt="" />
+        <div className="relative">
+          <img src={Girl} alt="" />
+          <p className="absolute top-0 left-4 flex items-center gap-2 text-[#83B19B] bg-[#E0E7E4] rounded-4xl px-2">
+            <svg
+              width="10"
+              height="11"
+              viewBox="0 0 10 11"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="5" cy="5.5" r="5" fill="#277B53" />
+            </svg>
+            Available
+          </p>
+        </div>
         <div className="flex justify-between items-center px-5 py-3 bg-[#1D7885]">
           <p className="text-white font-bold">Madelyn Hospital</p>
           <svg
