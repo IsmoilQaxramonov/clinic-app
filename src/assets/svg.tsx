@@ -1,7 +1,9 @@
 import CalendarLogo from "./img/calendar.png";
 import LocationLogo from "./img/location.png";
 import DetailMen from "./img/details-men.png";
-
+import header5 from "./img/Ellipse5.png";
+import header6 from "./img/Ellipse6.png";
+import header7 from "./img/Ellipse7.png";
 export const Calendar = () => {
   return <img className="w-6" src={CalendarLogo} alt="" />;
 };
@@ -53,3 +55,12 @@ export const Galichka = () => {
     </svg>
   );
 };
+export function Imgheader5() {
+  return <img className="z-[2]" src={header5} alt="" />;
+}
+export function Imgheader6() {
+  return <img className="z-[1]" src={header6} alt="" />;
+}
+export function Imgheader7() {
+  return <img src={header7} alt="" />;
+}

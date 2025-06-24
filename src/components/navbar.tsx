@@ -9,7 +9,7 @@ export const Navbar = () => {
     <>
       <nav className="px-10 py-5 flex items-center justify-between border-b border-gray-200">
         {/* <img className="w-[50%]" src={NavbarLogo} alt="" /> */}
-        <NavLogo/>
+        <NavLogo />
         {/* <div className="flex flex-col gap-2 items-center">
           <p className="font-bold text-[#292D32]">Bimore Design</p>
           <div className="flex items-center gap-1">
@@ -38,11 +38,11 @@ export const Navbar = () => {
         </div> */}
         <div className="flex items-center gap-3">
           <Hamburger
-          size={24}
-          color="#292D32"
-          toggled={isOpen}
-          toggle={setOpen}
-        />
+            size={24}
+            color="#292D32"
+            toggled={isOpen}
+            toggle={setOpen}
+          />
           <svg
             width="24"
             height="24"
