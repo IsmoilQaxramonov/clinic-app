@@ -1,1 +1,10 @@
 @import 'tailwindcss';
+
+@layer{
+    .p-title{
+        @apply font-bold text-[20px] text-[#292D32]
+    }
+    .p-lorem{
+        @apply font-semibold text-[16px] text-[#555B6C]
+    }
+}
