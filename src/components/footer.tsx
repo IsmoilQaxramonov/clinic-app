@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <footer className="mt-[100%] flex justify-between items-center px-10 py-5">
+    <footer className="mt-[100%] flex justify-between items-center px-10 py-5 sticky bottom-0 bg-white border-t border-gray-200">
       <div>
         <svg
           width="24"
