@@ -13,7 +13,6 @@ export const Appointment = () => {
             </div>
             <Calendar />
           </div>
-
           <div className="flex justify-between items-center border-b border-gray-200 pb-4">
             <div>
               <p className="p-title">13:00 PM</p>
@@ -34,11 +33,11 @@ export const Appointment = () => {
           <div className="flex items-center gap-3">
             <DetailsMen />
             <div>
-            <p className="p-title">Dr. Raze Invoker</p>
-            <p className="p-lorem">Internist Specialist </p>
+              <p className="p-title">Dr. Raze Invoker</p>
+              <p className="p-lorem">Internist Specialist </p>
             </div>
           </div>
-          <Galichka/>
+          <Galichka />
         </div>
       </div>
     </>
