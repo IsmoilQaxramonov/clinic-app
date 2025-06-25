@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 export const Footer = () => {
   return (
-    <footer className="mt-[100%] flex justify-between items-center px-10 py-5 sticky bottom-0 bg-white border-t border-gray-200">
-      <div>
+    <footer className="flex justify-between items-center px-8 py-5 sticky bottom-0 bg-white border-t border-gray-200">
+      <Link to={"/"}>
         <svg
           width="24"
           height="24"
@@ -14,8 +16,8 @@ export const Footer = () => {
             fill="#1D7885"
           />
         </svg>
-      </div>
-      <div>
+      </Link>
+      <Link to={"/document"}>
         <svg
           width="25"
           height="24"
@@ -56,8 +58,8 @@ export const Footer = () => {
             stroke-linejoin="round"
           />
         </svg>
-      </div>
-      <div>
+      </Link>
+      <Link to={"/chat"}>
         <svg
           width="25"
           height="24"
@@ -103,8 +105,8 @@ export const Footer = () => {
             stroke-linejoin="round"
           />
         </svg>
-      </div>
-      <div>
+      </Link>
+      <Link to={"/profile"}>
         <svg
           width="24"
           height="24"
@@ -134,7 +136,7 @@ export const Footer = () => {
             stroke-linejoin="round"
           />
         </svg>
-      </div>
+      </Link>
     </footer>
   );
 };

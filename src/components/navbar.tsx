@@ -1,48 +1,32 @@
 import { useState } from "react";
 import Hamburger from "hamburger-react";
 import { NavLogo } from "./nav-logo";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
+  const links = [
+    { to: "/recommend", label: "Recommended Doctors" },
+    { to: "/choose-appointment", label: "Choose Appointment Date" },
+    { to: "/appointment-details", label: "Details Appointment" },
+    { to: "/reviews", label: "Reviews and Ratings" },
+    { to: "/location", label: "Check-Up Location" },
+    { to: "/specialist", label: "Most Search Specialist" },
+    { to: "/up-coming", label: "Upcoming Appointments" },
+  ];
 
   return (
     <>
-      <nav className="px-10 py-5 flex items-center justify-between border-b border-gray-200">
-        {/* <img className="w-[50%]" src={NavbarLogo} alt="" /> */}
-        <NavLogo/>
-        {/* <div className="flex flex-col gap-2 items-center">
-          <p className="font-bold text-[#292D32]">Bimore Design</p>
-          <div className="flex items-center gap-1">
-            <svg
-              width="19"
-              height="18"
-              viewBox="0 0 19 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M9.50003 10.0725C10.7924 10.0725 11.84 9.02483 11.84 7.73249C11.84 6.44014 10.7924 5.39249 9.50003 5.39249C8.20769 5.39249 7.16003 6.44014 7.16003 7.73249C7.16003 9.02483 8.20769 10.0725 9.50003 10.0725Z"
-                stroke="#555B6C"
-                stroke-width="1.5"
-              />
-              <path
-                d="M3.21503 6.3675C4.69253 -0.127498 14.315 -0.119998 15.785 6.375C16.6475 10.185 14.2775 13.41 12.2 15.405C10.6925 16.86 8.30753 16.86 6.79253 15.405C4.72253 13.41 2.35253 10.1775 3.21503 6.3675Z"
-                stroke="#555B6C"
-                stroke-width="1.5"
-              />
-            </svg>
-            <p className="text-sm text-[#555B6C] font-medium">
-              Jakarta, Indonesia
-            </p>
-          </div>
-        </div> */}
+      <nav className="px-8 py-5 flex items-center justify-between border-b border-gray-200">
+        <NavLogo />
+
         <div className="flex items-center gap-3">
           <Hamburger
-          size={24}
-          color="#292D32"
-          toggled={isOpen}
-          toggle={setOpen}
-        />
+            size={24}
+            color="#292D32"
+            toggled={isOpen}
+            toggle={setOpen}
+          />
           <svg
             width="24"
             height="24"
@@ -80,28 +64,12 @@ export const Navbar = () => {
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </div>
 
-          <ul className="mt-10 space-y-4 text-xl font-semibold text-center">
-            <li>
-              <a href="#">Recommended Doctors</a>
-            </li>
-            <li>
-              <a href="#">Choose Appointment Date</a>
-            </li>
-            <li>
-              <a href="#">Details Appointment</a>
-            </li>
-            <li>
-              <a href="#">Reviews and Ratings</a>
-            </li>
-            <li>
-              <a href="#">Check-Up Location</a>
-            </li>
-            <li>
-              <a href="#">Most Search Specialist</a>
-            </li>
-            <li>
-              <a href="#">Upcoming Appointments</a>
-            </li>
+          <ul className="mt-10 flex flex-col text-xl font-semibold text-center">
+            {links.map(({ to, label }) => (
+              <Link key={to} to={to} onClick={() => setOpen(false)}>
+                {label}
+              </Link>
+            ))}
           </ul>
         </div>
       )}

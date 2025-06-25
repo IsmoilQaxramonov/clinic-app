@@ -6,7 +6,7 @@ export const RecommendCart = () => {
       <div className="bg-[#F2F2F2] rounded-4xl pt-4">
         <div className="relative">
           <img src={Girl} alt="" />
-          <p className="absolute top-0 left-4 flex items-center gap-2 text-[#83B19B] bg-[#E0E7E4] rounded-4xl px-2">
+          <p className="absolute top-0 left-2 flex items-center gap-2 text-[#83B19B] bg-[#E0E7E4] rounded-4xl px-2">
             <svg
               width="10"
               height="11"

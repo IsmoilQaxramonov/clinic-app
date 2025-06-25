@@ -1,9 +1,15 @@
-import { Calendar, Clock, DetailsMen, Galichka, Location } from "../assets/svg";
+import {
+  Calendar,
+  Clock,
+  DetailsMen,
+  Galichka,
+  MiniLocation,
+} from "../assets/svg";
 
 export const Appointment = () => {
   return (
     <>
-      <div className="px-10 py-5">
+      <div className="px-4 py-5">
         <p className="p-title">Details Appointment</p>
         <div className="flex flex-col gap-4 my-4 py-5 px-6 border border-gray-200 rounded-3xl">
           <div className="flex justify-between items-center border-b border-gray-200 pb-4">
@@ -27,18 +33,18 @@ export const Appointment = () => {
               <p className="p-title">Radiant HospitalM</p>
               <p className="p-lorem">Appointment Location</p>
             </div>
-            <Location />
+            <MiniLocation />
           </div>
         </div>
         <div className="flex justify-between items-center bg-[#F8FBFB] p-4 rounded-3xl">
           <div className="flex items-center gap-3">
             <DetailsMen />
             <div>
-            <p className="p-title">Dr. Raze Invoker</p>
-            <p className="p-lorem">Internist Specialist </p>
+              <p className="p-title">Dr. Raze Invoker</p>
+              <p className="p-lorem">Internist Specialist </p>
             </div>
           </div>
-          <Galichka/>
+          <Galichka />
         </div>
       </div>
     </>
