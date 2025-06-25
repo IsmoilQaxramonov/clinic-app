@@ -2,6 +2,7 @@ import cancelicon from "../assets/img/close-circle.svg";
 import { useState } from "react";
 import arrowx from "../assets/img/arrow-right.svg";
 
+
 function ChooseAppointment() {
   const [selectedDate, setSelectedDate] = useState(new Date());
 

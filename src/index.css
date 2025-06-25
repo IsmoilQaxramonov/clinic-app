@@ -28,7 +28,8 @@
   .h4-rading-hospital {
     @apply font-[700] text-[16px] text-[#1D7885];
   }
-  .h5-rading-hospital {
+  .h5-rading-hospital,
+  .h1-review {
     @apply font-[700] text-[18px] text-[#292D32];
   }
   .h6-rading-hospital {
@@ -36,5 +37,32 @@
   }
   .price-rading-hospital {
     @apply font-[700] text-[18px] text-[#FF5050];
+  }
+  .h2-reviews {
+    @apply font-[700] text-[20px] text-[#292D32];
+  }
+  .p-reviews {
+    @apply font-[700] text-[14px] text-[#555B6C];
+  }
+  .h3-reviews {
+    @apply font-[800] text-[40px] text-[#292D32];
+  }
+  .h4-reviews {
+    @apply font-[600] text-[16px] text-[#555B6C];
+  }
+  .h2-review {
+    @apply font-[600] text-[16px] text-[#555B6C];
+  }
+  .h3-review {
+    @apply font-[700] text-[16px] text-[#FFB063];
+  }
+  .h2-uncoming {
+    @apply font-[700] text-[16px] text-[#FFFFFF];
+  }
+  .h3-uncoming {
+    @apply font-[700] text-[14px] text-[#FFFFFF];
+  }
+  .p-uncoming {
+    @apply font-[600] text-[10px] text-[#CCE0E2];
   }
 }

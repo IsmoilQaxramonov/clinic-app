@@ -17,7 +17,7 @@ export const Footer = () => {
           />
         </svg>
       </Link>
-      <Link to={"/details"}>
+      <Link to={"/document"}>
         <svg
           width="25"
           height="24"
@@ -59,7 +59,7 @@ export const Footer = () => {
           />
         </svg>
       </Link>
-      <div>
+      <Link to={"/chat"}>
         <svg
           width="25"
           height="24"
@@ -105,7 +105,7 @@ export const Footer = () => {
             stroke-linejoin="round"
           />
         </svg>
-      </div>
+      </Link>
       <Link to={"/profile"}>
         <svg
           width="24"

@@ -14,7 +14,7 @@ function RadiantHospital() {
             <p className="p-lorem">Internist Specialist </p>
           </div>
         </div>
-        <div className="flex px-[16px] py-[16px] gap-[12px] justify-between mb-[20px]">
+        <div className="flex px-[16px] py-[16px] gap-[12px] justify-between mb-[20px] border-[#F1F1F1] border-[1px] rounded-[15px]">
           <div className="flex flex-col gap-[2px]">
             <div className="flex items-center gap-[2px] px-[12px]">
               <img className="size-[20px]" src={verify} alt="" />
@@ -26,7 +26,7 @@ function RadiantHospital() {
           <div className="flex flex-col gap-[2px]">
             <div className="flex items-center gap-[2px] px-[12px]">
               <img className="size-[20px]" src={briefcase} alt="" />
-              <p className="h6-rading-hospital">5 Years</p>
+              <p className="h6-rading-hospital">5Years</p>
             </div>
             <p className="p-lorem text-center">Experience</p>
           </div>
