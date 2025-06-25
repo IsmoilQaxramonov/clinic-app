@@ -3,7 +3,7 @@ import stars from "../assets/img/star.svg";
 import briefcase from "../assets/img/briefcase.svg";
 import { Button } from "./button";
 
-function Radinghospital() {
+function RadingHospital() {
   return (
     <>
       <div className="px-[20px] py-[12px] mt-[32px]">
@@ -54,4 +54,4 @@ function Radinghospital() {
   );
 }
 
-export default Radinghospital;
+export default RadingHospital;

@@ -4,20 +4,21 @@ import { Footer } from "./components/footer";
 import { Recommend } from "./pages/recommend";
 import { Appointment } from "./pages/appointment-details";
 import Header from "./components/header";
-import Choseappointment from "./components/chose-appointment";
-import Radinghospital from "./components/rading-hospital";
+import ChoseAppointment from "./components/choose-appointment";
+import RadingHospital from "./components/radiant-hospital";
 import Reviews from "./components/reviews";
+import Uncoming from "./components/upcoming";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
       <Header />
-      <Recommend />
-      <Choseappointment />
-      <Radinghospital />
+      <ChoseAppointment />
+      <RadingHospital />
       <Appointment />
       <Reviews />
+      <Uncoming />
       <Footer />
     </BrowserRouter>
   );

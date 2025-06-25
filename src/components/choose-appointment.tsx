@@ -1,7 +1,7 @@
 import cancelicon from "../assets/img/close-circle.svg";
 import { useState } from "react";
 import arrowx from "../assets/img/arrow-right.svg";
-function Choseappointment() {
+function ChoseAppointment() {
   const [selectedDate, setSelectedDate] = useState(new Date());
 
   const daysOfWeek = ["Sun", "Se", "Ch", "Pa", "Ju", "Sh", "Ya"];
@@ -109,4 +109,4 @@ function Choseappointment() {
   );
 }
 
-export default Choseappointment;
+export default ChoseAppointment;
