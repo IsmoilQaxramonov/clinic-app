@@ -1,15 +1,19 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Navbar } from "./components/navbar";
 import { Footer } from "./components/footer";
-// import { Recommend } from "./pages/recommend";
-// import { Appointment } from "./pages/appointment-details";
+import { Profile } from "./pages/profile";
+import { Appointment } from "./pages/appointment-details";
+import { Recommend } from "./pages/recommend";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      {/* <Recommend/> */}
-      {/* <Appointment/> */}
+      <Routes>
+        <Route path="/" element={<Recommend/>}/>
+        <Route path="/details" element={<Appointment/>}/>
+        <Route path="/profile" element={<Profile/>}/>
+      </Routes>
       <Footer />
     </BrowserRouter>
   );

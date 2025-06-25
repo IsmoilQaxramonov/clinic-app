@@ -1,13 +1,14 @@
 import { useState } from "react";
 import Hamburger from "hamburger-react";
 import { NavLogo } from "./nav-logo";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
     <>
-      <nav className="px-10 py-5 flex items-center justify-between border-b border-gray-200">
+      <nav className="px-8 py-5 flex items-center justify-between border-b border-gray-200">
         {/* <img className="w-[50%]" src={NavbarLogo} alt="" /> */}
         <NavLogo/>
         {/* <div className="flex flex-col gap-2 items-center">
@@ -81,27 +82,27 @@ export const Navbar = () => {
           </div>
 
           <ul className="mt-10 space-y-4 text-xl font-semibold text-center">
-            <li>
-              <a href="#">Recommended Doctors</a>
-            </li>
-            <li>
-              <a href="#">Choose Appointment Date</a>
-            </li>
-            <li>
-              <a href="#">Details Appointment</a>
-            </li>
-            <li>
-              <a href="#">Reviews and Ratings</a>
-            </li>
-            <li>
-              <a href="#">Check-Up Location</a>
-            </li>
-            <li>
-              <a href="#">Most Search Specialist</a>
-            </li>
-            <li>
-              <a href="#">Upcoming Appointments</a>
-            </li>
+            <Link to={"/"}>
+              Recommended Doctors
+            </Link>
+            <Link to={"/appointment-date"}>
+              Choose Appointment Date
+            </Link>
+            <Link to={"/details"}>
+              Details Appointment
+            </Link>
+            <Link to={"/ratings"}>
+              Reviews and Ratings
+            </Link>
+            <Link to={"/location"}>
+              Check-Up Location
+            </Link>
+            <Link to={"/"}>
+              Most Search SpeciaLinkst
+            </Link>
+            <Link to={"/"}>
+              Upcoming Appointments
+            </Link>
           </ul>
         </div>
       )}
