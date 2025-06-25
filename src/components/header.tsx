@@ -7,7 +7,7 @@ export function Header() {
         <div className="pl-[24px] pt-[24px] bg-[#1D7885] rounded-[24px] min-h-[183px] w-[100%] flex justify-between relative">
           <div className="w-[200px] h-[135px]">
             <p className="p-header">Trusted doctor on your schedule 😉 </p>
-            <h2 className="h2-header">header A Doctor — Book Today!</h2>
+            <h2 className="h2-header">Consult A Doctor — Book Today!</h2>
             <div className="flex gap-[18px] mt-[16px]">
               <div className="flex -space-x-3 ">
                 <Imgheader5 />

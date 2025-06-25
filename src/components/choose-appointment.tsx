@@ -35,7 +35,7 @@ function ChooseAppointment() {
     <>
       <div className="px-[18px] py-[18px]  mt-[32px]">
         <div className="flex justify-between">
-          <h3 className="h3-chose-appointmment ">Choose Appointment Date</h3>
+          <h3 className="p-title">Choose Appointment Date</h3>
           <img src={cancelicon} alt="" />
         </div>
         <div className=" py-[24px] flex justify-center">
