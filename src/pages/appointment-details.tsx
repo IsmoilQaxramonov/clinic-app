@@ -1,4 +1,10 @@
-import { Calendar, Clock, DetailsMen, Galichka, MiniLocation } from "../assets/svg";
+import {
+  Calendar,
+  Clock,
+  DetailsMen,
+  Galichka,
+  MiniLocation,
+} from "../assets/svg";
 
 export const Appointment = () => {
   return (
@@ -13,6 +19,7 @@ export const Appointment = () => {
             </div>
             <Calendar />
           </div>
+
           <div className="flex justify-between items-center border-b border-gray-200 pb-4">
             <div>
               <p className="p-title">13:00 PM</p>

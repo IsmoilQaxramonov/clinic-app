@@ -1,7 +1,8 @@
 import cancelicon from "../assets/img/close-circle.svg";
 import { useState } from "react";
 import arrowx from "../assets/img/arrow-right.svg";
-function Choseappointment() {
+
+function ChooseAppointment() {
   const [selectedDate, setSelectedDate] = useState(new Date());
 
   const daysOfWeek = ["Sun", "Se", "Ch", "Pa", "Ju", "Sh", "Ya"];
@@ -12,7 +13,7 @@ function Choseappointment() {
 
   const firstDayOfMonth = new Date(year, month, 1);
   const lastDayOfMonth = new Date(year, month + 1, 0);
-  const startDay = firstDayOfMonth.getDay() || 7; // 0 bo‘lsa yakshanba → 7
+  const startDay = firstDayOfMonth.getDay() || 7;
 
   const daysInMonth = Array.from(
     { length: lastDayOfMonth.getDate() },
@@ -109,4 +110,4 @@ function Choseappointment() {
   );
 }
 
-export default Choseappointment;
+export default ChooseAppointment;
