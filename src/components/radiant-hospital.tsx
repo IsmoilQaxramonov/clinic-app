@@ -1,7 +1,6 @@
 import verify from "../assets/img/verify.svg";
 import stars from "../assets/img/star.svg";
 import briefcase from "../assets/img/briefcase.svg";
-import { Button } from "./button";
 
 function RadingHospital() {
   return (
