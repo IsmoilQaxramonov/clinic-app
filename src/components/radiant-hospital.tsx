@@ -1,13 +1,14 @@
 import verify from "../assets/img/verify.svg";
 import stars from "../assets/img/star.svg";
 import briefcase from "../assets/img/briefcase.svg";
+import MenDetail from "../assets/img/details-men.png"
 
 function RadiantHospital() {
   return (
     <>
       <div className="px-[20px] py-[12px] mt-[32px]">
         <div className=" flex gap-[12px] items-center mb-[20px]">
-          <img src="public\Mask group.png" alt="" />
+          <img src={MenDetail} alt="" />
           <div className="flex flex-col gap-[8px]">
             <h4 className="h4-rading-hospital">Radiant Hospital</h4>
             <h5 className="h5-rading-hospital">Dr. Raze Invoker</h5>
