@@ -7,6 +7,7 @@ export const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
   const links = [
     { to: "/recommend", label: "Recommended Doctors" },
+    { to: "/about", label: "Information about our doctor" },
     { to: "/choose-appointment", label: "Choose Appointment Date" },
     { to: "/appointment-details", label: "Details Appointment" },
     { to: "/reviews", label: "Reviews and Ratings" },

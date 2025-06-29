@@ -1,6 +1,7 @@
 import { Imgheader5, Imgheader6, Imgheader7 } from "../assets/svg";
 import bgdekor from "../assets/img/Vector.png";
-import HeaderMen from "../assets/img/header-men.png"
+import HeaderMen from "../assets/img/header-men.png";
+import { Link } from "react-router-dom";
 export function Header() {
   return (
     <>
@@ -23,11 +24,13 @@ export function Header() {
           </div>
           <div>
             <img src={bgdekor} className="w-[130px] mt-[20px]" alt="" />
-            <img
-              className="absolute w-[150px] bottom-[0px] right-[0px]"
-              src={HeaderMen}
-              alt=""
-            />
+            <Link to={"/about"}>
+              <img
+                className="absolute w-[150px] bottom-[0px] right-[0px]"
+                src={HeaderMen}
+                alt=""
+              />
+            </Link>
           </div>
         </div>
       </div>

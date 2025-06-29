@@ -2,7 +2,7 @@ import { DetailsMen } from "../assets/svg";
 
 function UpComing() {
   return (
-    <div className="p-4 bg-[#1D7885] rounded-[20px] my-5 mx-4">
+    <div className="p-4 bg-[#1D7885] rounded-[20px] mt-5 mx-4">
       <div className="flex justify-between mb-[16]">
         <h2 className="h2-uncoming ">Upcoming Appointments</h2>
         <svg
