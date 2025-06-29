@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
-    <footer className="flex justify-between items-center px-8 py-5 sticky bottom-0 bg-white border-t border-gray-200">
+    <footer className="flex justify-between items-center px-8 py-5 fixed w-full h-max bottom-0 bg-white border-t border-gray-200">
       <Link to={"/"}>
         <svg
           width="24"

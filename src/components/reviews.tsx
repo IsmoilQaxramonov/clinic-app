@@ -6,6 +6,15 @@ import profilimg2 from "../assets/img/Image Grup (1).png";
 function Reviews() {
   return (
     <div className="flex flex-col justify-center px-[20px] py-[20px] ">
+      <div className="flex flex-col gap-3 mb-5">
+        <textarea
+          className="px-4 py-2 h-20 rounded border border-gray-200"
+          placeholder="Doktor haqidagi fikringizni yozing"
+        />
+        <button className="bg-blue-500 text-white px-5 py-2 rounded">
+          Yuborish
+        </button>
+      </div>
       <div className="flex justify-between mb-[16px]">
         <h2 className="h2-reviews">Reviews and Ratings</h2>
         <p className="p-reviews">View all</p>
