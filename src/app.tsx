@@ -13,8 +13,9 @@ import ChooseAppointment from "./components/choose-appointment";
 import { Appointment } from "./components/appointment-details";
 import Reviews from "./components/reviews";
 import UpComing from "./components/up-coming";
-import { Specialist } from "./components/specialist";
 import { About } from "./components/about";
+import { GoogleMapCart } from "./components/google-map";
+// import { Specialist } from "./components/specialist";
 
 const App = () => {
   return (
@@ -31,13 +32,12 @@ const App = () => {
           <Route path="/choose-appointment" element={<ChooseAppointment />} />
           <Route path="/appointment-details" element={<Appointment />} />
           <Route path="/reviews" element={<Reviews />} />
-          <Route path="/location" element={<Profile />} />
-          <Route path="/specialist" element={<Specialist />} />
+          <Route path="/location" element={<GoogleMapCart />} />
+          {/* <Route path="/specialist" element={<Specialist />} /> */}
           <Route path="/up-coming" element={<UpComing />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
-
       <Footer />
     </BrowserRouter>
   );

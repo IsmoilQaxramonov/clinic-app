@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <Link
       to="/about"
-      className="m-4 p-4 rounded-2xl shadow-md bg-white hover:shadow-lg transition-shadow duration-300"
+      className="m-4 p-4"
     >
       <div className="w-32 h-32 rounded-full overflow-hidden mx-auto bg-blue-100 flex items-center justify-center">
         <img
