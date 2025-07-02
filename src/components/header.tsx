@@ -10,7 +10,7 @@ export function Header() {
           <div className="w-[200px] h-[135px]">
             <p className="p-header">Trusted doctor on your schedule 😉 </p>
             <h2 className="h2-header">Consult A Doctor — Book Today!</h2>
-            <div className="flex gap-[18px] mt-[16px]">
+            <Link to="/chat" className="flex gap-[18px] mt-[16px]">
               <div className="flex -space-x-3 ">
                 <Imgheader5 />
                 <Imgheader6 />
@@ -20,7 +20,7 @@ export function Header() {
                 <h3 className="h3-header">30.000+</h3>
                 <p className="p-header">Happy Patients</p>
               </div>
-            </div>
+            </Link>
           </div>
           <div>
             <img src={bgdekor} className="w-[130px] mt-[20px]" alt="" />

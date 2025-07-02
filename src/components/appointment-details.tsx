@@ -40,8 +40,10 @@ export const Appointment = () => {
           <div className="flex items-center gap-3">
             <DetailsMen />
             <div>
-              <p className="p-title">Dr. Raze Invoker</p>
-              <p className="p-lorem">Internist Specialist </p>
+              <p className="p-title">Jasur Khalmatov</p>
+              <p className="p-appointment">
+                2018-yildan beri Saalam dentalda Stomatolog-Ortoped
+              </p>
             </div>
           </div>
           <Galichka />

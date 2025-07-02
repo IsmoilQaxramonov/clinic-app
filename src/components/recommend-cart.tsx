@@ -1,11 +1,14 @@
-import Girl from "../assets/img/recommend-girl.png";
+import { Link } from "react-router-dom";
+import HeaderMen from "../assets/img/header-men.png";
 
 export const RecommendCart = () => {
   return (
     <>
       <div className="bg-[#F2F2F2] rounded-4xl pt-4">
         <div className="relative">
-          <img src={Girl} alt="" />
+          <Link to={"/about"}>
+            <img className="w-[70%] block mx-auto" src={HeaderMen} alt="" />
+          </Link>
           <p className="absolute top-0 left-2 flex items-center gap-2 text-[#83B19B] bg-[#E0E7E4] rounded-4xl px-2">
             <svg
               width="10"
@@ -64,7 +67,7 @@ export const RecommendCart = () => {
             </svg>
           </div>
           <p className="mt-4 text-2xl text-[#FF5050] font-semibold">
-            Rp 240.000 <span className="p-lorem">/hours</span>
+            24 <span className="p-lorem">/7</span>
           </p>
         </div>
       </div>

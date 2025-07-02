@@ -37,7 +37,7 @@ export const MiniLocation = () => {
 };
 
 export const DetailsMen = () => {
-  return <img className="w-14" src={DetailMen} alt="" />;
+  return <img className="w-14 rounded-[20%]" src={DetailMen} alt="" />;
 };
 
 export const Galichka = () => {
@@ -170,11 +170,11 @@ export const ProfileLogo4 = () => {
 };
 
 export function Imgheader5() {
-  return <img className="z-[2]" src={header5} alt="" />;
+  return <img className="z-[2] size-10 rounded-full" src={header5} alt="" />;
 }
 export function Imgheader6() {
-  return <img className="z-[1]" src={header6} alt="" />;
+  return <img className="z-[1] size-10 rounded-full" src={header6} alt="" />;
 }
 export function Imgheader7() {
-  return <img src={header7} alt="" />;
+  return <img className="size-10 rounded-full" src={header7} alt="" />;
 }
