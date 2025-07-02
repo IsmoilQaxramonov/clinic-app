@@ -65,4 +65,10 @@
   .p-uncoming {
     @apply font-[600] text-[10px] text-[#CCE0E2];
   }
+  .p-appointment {
+    @apply font-semibold text-[10px] text-[#555B6C];
+  }
+  .p-radiant {
+    @apply font-semibold text-[15px] text-[#555B6C];
+  }
 }
