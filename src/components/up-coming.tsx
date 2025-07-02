@@ -116,8 +116,8 @@ function UpComing() {
       <div className="flex items-center gap-3 bg-white p-[12px] rounded-[15px] mt-[28px]">
         <DetailsMen />
         <div>
-          <p className="p-title text-black">Dr. Strange Walker</p>
-          <p className="p-lorem">Internist Specialist Doctor</p>
+          <p className="text-lg font-bold text-[#292D32]">Dr. Strange Walker</p>
+          <p className="text-sm font-semibold text-[#555B6C]">Internist Specialist Doctor</p>
         </div>
         <svg
           width="24"
