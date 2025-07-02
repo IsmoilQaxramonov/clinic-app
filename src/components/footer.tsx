@@ -7,7 +7,7 @@ export const Footer = () => {
     return location.pathname === path ? "#1D7885" : "#292D32";
   };
 
-  return (
+  return ( 
     <footer className="flex justify-between items-center px-8 py-5 fixed w-full h-max bottom-0 bg-white border-t border-gray-200">
       <Link className="flex flex-col items-center" to={"/"}>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none">

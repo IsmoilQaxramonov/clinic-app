@@ -12,7 +12,7 @@ export const Navbar = () => {
     { to: "/appointment-details", label: "Details Appointment" },
     { to: "/reviews", label: "Reviews and Ratings" },
     { to: "/location", label: "Check-Up Location" },
-    { to: "/specialist", label: "Most Search Specialist" },
+    // { to: "/specialist", label: "Most Search Specialist" },
     { to: "/up-coming", label: "Upcoming Appointments" },
   ];
 

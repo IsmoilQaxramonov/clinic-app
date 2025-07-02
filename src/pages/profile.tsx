@@ -7,7 +7,7 @@ export const Profile = () => {
   return (
     <>
       <div className="p-4">
-        <p className="p-title mb-4">Check-Up Location</p>
+        <p className="p-title">Check-Up Location</p>
         {/* <p className="p-title my-4">Most Search Specialist</p> */}
       </div>
         <Link to={"/location"}>

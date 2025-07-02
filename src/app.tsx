@@ -24,7 +24,7 @@ const App = () => {
       <div className="mb-20">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About/>}/>
+          <Route path="/about" element={<About />} />
           <Route path="/document" element={<Document />} />
           <Route path="/chat" element={<Chat />} />
           <Route path="/profile" element={<Profile />} />
@@ -35,7 +35,6 @@ const App = () => {
           <Route path="/location" element={<GoogleMapCart />} />
           {/* <Route path="/specialist" element={<Specialist />} /> */}
           <Route path="/up-coming" element={<UpComing />} />
-          <Route path="/about" element={<About />} />
         </Routes>
       </div>
       <Footer />
