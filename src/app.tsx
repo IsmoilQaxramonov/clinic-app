@@ -20,24 +20,26 @@ import { GoogleMapCart } from "./components/google-map";
 const App = () => {
   return (
     <BrowserRouter>
-      <Navbar />
-      <div className="mb-20">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/document" element={<Document />} />
-          <Route path="/chat" element={<Chat />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/recommend" element={<Recommend />} />
-          <Route path="/choose-appointment" element={<ChooseAppointment />} />
-          <Route path="/appointment-details" element={<Appointment />} />
-          <Route path="/reviews" element={<Reviews />} />
-          <Route path="/location" element={<GoogleMapCart />} />
-          {/* <Route path="/specialist" element={<Specialist />} /> */}
-          <Route path="/up-coming" element={<UpComing />} />
-        </Routes>
+      <div className="bg-white min-h-screen">
+        <Navbar />
+        <div className="mb-20">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/document" element={<Document />} />
+            <Route path="/chat" element={<Chat />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/recommend" element={<Recommend />} />
+            <Route path="/choose-appointment" element={<ChooseAppointment />} />
+            <Route path="/appointment-details" element={<Appointment />} />
+            <Route path="/reviews" element={<Reviews />} />
+            <Route path="/location" element={<GoogleMapCart />} />
+            {/* <Route path="/specialist" element={<Specialist />} /> */}
+            <Route path="/up-coming" element={<UpComing />} />
+          </Routes>
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </BrowserRouter>
   );
 };

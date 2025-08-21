@@ -18,7 +18,7 @@ export function Header() {
               </div>
               <div className="flex flex-col">
                 <h3 className="h3-header">30.000+</h3>
-                <p className="p-header">Happy Patients</p>
+                <p className="text-[10px] text-[#C3DDE1]">Happy Patients</p>
               </div>
             </Link>
           </div>

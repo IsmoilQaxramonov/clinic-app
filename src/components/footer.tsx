@@ -4,7 +4,7 @@ export const Footer = () => {
   const location = useLocation();
 
   const getColor = (path: string): string => {
-    return location.pathname === path ? "#1D7885" : "#292D32";
+    return location.pathname === path ? "#1D7885" : "#505153";
   };
 
   return ( 
